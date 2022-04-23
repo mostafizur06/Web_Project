@@ -50,8 +50,9 @@ body {
   font-size: 20px;
   max-width: 100%;
   padding: 12px;
-
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .option a {
   padding: 10px;
@@ -59,7 +60,6 @@ body {
   text-decoration: none;
   font-size: 20px;
   font-family: sans-serif;
-  margin-left: 20px;
 
   font-weight: bold;
   color: #0f1113;
@@ -186,6 +186,11 @@ footer {
   }
   .index2 h1 {
     font-size: 24px;
+  }
+  .option {
+    font-size: 20px;
+    max-width: 100%;
+    padding: 10px;
   }
   .option a {
     font-size: 15px;
